@@ -1,0 +1,23 @@
+.card{
+    width: 30%;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.orange{
+    background-color: #E28625;
+}
+
+.blue{
+    background-color: #006971;
+}
+
+.green{
+    background-color: #004140;
+}
+
+@media (max-width: 768px) {
+	.card{
+		width: 50%;
+	}
+}

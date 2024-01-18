@@ -1,7 +1,14 @@
-body {
+.container{
+	max-width: 900px;
 	font-family: sans-serif;
 	background-color: #F2F2F2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.container{
+		flex-direction: column;
+	}
 }

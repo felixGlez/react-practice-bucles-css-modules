@@ -1,0 +1,20 @@
+.button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.orange{
+    color: #E28625;
+}
+
+.blue{
+    color: #006971;
+}
+
+.green{
+    color: #004140;
+}
