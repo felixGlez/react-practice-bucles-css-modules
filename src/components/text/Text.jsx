@@ -1,7 +1,7 @@
-import style from './text.module.css'
+import style from './text.module.css';
 
-const Text = () => {
-    return <p className={style.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate sapiente iusto corrupti ex error velit aliquam minima illo ab hic quod, sit soluta dolor dignissimos repellat quaerat, non repellendus?</p>
-}
+const Text = props => {
+	return <p className={style.text}>{props.text}</p>;
+};
 
-export default Text
+export default Text;
